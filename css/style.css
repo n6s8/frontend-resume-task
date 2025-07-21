@@ -227,7 +227,6 @@
 .medium {
     width: 120px;
 }
-/* Layout wrapper */
 .resume-medium {
     display: flex;
     flex-direction: row;
@@ -236,7 +235,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Left side — Experience block */
 .experience {
     width: 411px;
     border-radius: 12px;
@@ -248,7 +246,6 @@
     gap: 16px;
 }
 
-/* Right side — Tools block */
 .tools {
     width: 124px;
     height: 359px;
@@ -258,14 +255,12 @@
     padding: 12px;
 }
 
-/* Experience title */
 .word {
     font-size: 20px;
     font-weight: 600;
     margin: 0 0 10px 0;
 }
 
-/* List of experience cards */
 .list {
     width: 387px;
     display: flex;
@@ -274,7 +269,6 @@
     box-sizing: border-box;
 }
 
-/* Individual card layout */
 .exp-card {
     width: 387px;
     display: flex;
@@ -286,7 +280,6 @@
     overflow: hidden;
 }
 
-/* Green and white cards */
 .exp-card.green {
     background-color: #6BCB77;
     color: white;
@@ -297,7 +290,6 @@
     color: black;
 }
 
-/* Header with date and tag */
 .exp-header {
     display: flex;
     justify-content: space-between;
@@ -312,7 +304,6 @@
     margin: 0;
 }
 
-/* "most recent" tag */
 .tag-color {
     background-color: #7E731266;
     color: #DDF163;
@@ -323,7 +314,6 @@
     white-space: nowrap;
 }
 
-/* Content area with job-info and tasks */
 .content {
     display: flex;
     flex-direction: row;
@@ -333,7 +323,6 @@
     width: 100%;
 }
 
-/* Left column — job title and company */
 .job-info {
     display: flex;
     flex-direction: column;
@@ -342,7 +331,6 @@
     box-sizing: border-box;
 }
 
-/* Job title */
 .exp-title {
     font-size: 10px;
     font-weight: 500;
@@ -350,7 +338,6 @@
     margin: 0;
 }
 
-/* Company and employment type */
 .exp-company {
     margin: 0;
     font-weight: 400;
@@ -360,7 +347,6 @@
     vertical-align: middle;
 }
 
-/* Task description list */
 .exp-tasks {
     width: 239px;
     padding-left: 15px;
@@ -372,7 +358,6 @@
     list-style-position: inside;
 }
 
-/* Task items */
 .exp-tasks li {
     font-size: 8px;
     line-height: 150%;
@@ -597,7 +582,7 @@
     font-weight: 400;
     color: white;
 }
-/* Ripple Effect */
+
 .ripple {
     position: relative;
     overflow: hidden;
@@ -620,7 +605,6 @@
     }
 }
 
-/* Style for the download button */
 #downloadPDF {
     position: fixed;
     bottom: 20px;
@@ -636,14 +620,12 @@
 }
 
 
-/* ======== Highlight for contenteditable (edit mode) ======== */
 [contenteditable="true"]:focus {
     outline: 2px solid #6BCB77;
     background: #e8ffe8;
     transition: background 0.2s;
 }
 
-/* Подсказка об редактируемости */
 [contenteditable="true"]:hover::after {
     content: ' ✏️';
     opacity: 0.6;
@@ -651,7 +633,6 @@
     margin-left: 4px;
 }
 
-/* Медиазапрос для мобильных устройств */
 @media (max-width: 768px) {
     .resume-top,
     .resume-medium,
@@ -683,7 +664,6 @@
     }
 }
 
-/* Анимация редактирования */
 [contenteditable="true"] {
     transition: background-color 0.3s, outline 0.3s;
 }
