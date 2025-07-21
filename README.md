@@ -43,6 +43,6 @@ npm run dev
 
 ## 🌐 Live-версия
 
-📎 [Открыть через GitHub Pages]()
+📎 [Открыть через Vercel](https://vercel.com/nurzhans-projects-c5f7be1b/frontend-resume-task/GYfRAeMDWZCTePR5Dr1ZarsgrgR9)
 
 ---
