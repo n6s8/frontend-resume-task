@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
               <div class="exp-card green">
                 <div class="exp-header">
                   <p class="exp-date">Jun. 2023 – Present</p>
-                  <div class="tag">most recent</div>
+                  <div class="tag-color">most recent</div>
                 </div>
                 <div class="content">
                   <div class="job-info">
@@ -147,7 +147,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <div class="education-card white">
                     <div class="card-header"><span>2017</span></div>
                     <h3>Graphic design</h3>
-                    <p class="tags">#branding #web #illustration #adobe</p>
+                    <p class="tags-green">#branding #web #illustration #adobe</p>
                     <p class="institution">Coursrea</p>
                   </div>  
               </div>
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   <div class="education-card white">
                     <div class="card-header"><span>2017 - 2022</span></div>
                     <h3>Law</h3>
-                    <p class="tags">#law #legalStudies #contracts #internationalLaws</p>
+                    <p class="tags-green">#law #legalStudies #contracts #internationalLaws</p>
                     <p class="institution">University of Kerala</p>
                   </div>
               </div>                   

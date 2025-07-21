@@ -18,9 +18,6 @@
 # Клонируй проект
 git clone git@github.com:n6s8/frontend-resume-task.git
 
-# Перейди в директорию
-cd 
-
 # Установи зависимости
 npm install
 
@@ -43,6 +40,6 @@ npm run dev
 
 ## 🌐 Live-версия
 
-📎 [Открыть через Vercel](https://frontend-resume-task-git-main-nurzhans-projects-c5f7be1b.vercel.app/)
+📎 [Открыть через Vercel](https://frontend-resume-task.vercel.app/)
 
 ---

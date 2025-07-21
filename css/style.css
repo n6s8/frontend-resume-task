@@ -313,9 +313,9 @@
 }
 
 /* "most recent" tag */
-.tag {
-    background-color: #A0C58F;
-    color: white;
+.tag-color {
+    background-color: #7E731266;
+    color: #DDF163;
     font-size: 10px;
     padding: 2px 8px;
     border-radius: 12px;
@@ -521,9 +521,13 @@
 .tags {
     font-size: 10px;
     line-height: 1.4;
-    color: #2f2f2f;
+    color: white;
 }
-
+.tags-green{
+    font-size: 10px;
+    line-height: 1.4;
+    color: #149063;
+}
 .institution {
     font-size: 10px;
     font-weight: 400;
