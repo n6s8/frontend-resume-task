@@ -16,7 +16,7 @@
 
 ```bash
 # Клонируй проект
-git clone 
+git clone git@github.com:n6s8/frontend-resume-task.git
 
 # Перейди в директорию
 cd 
@@ -43,6 +43,6 @@ npm run dev
 
 ## 🌐 Live-версия
 
-📎 [Открыть через Vercel](https://vercel.com/nurzhans-projects-c5f7be1b/frontend-resume-task/GYfRAeMDWZCTePR5Dr1ZarsgrgR9)
+📎 [Открыть через Vercel](https://frontend-resume-task-git-main-nurzhans-projects-c5f7be1b.vercel.app/)
 
 ---
